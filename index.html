@@ -1,7 +1,7 @@
 <!------ Library App ------>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,21 +14,71 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <div id="bg-image"></div>
-    <!------ <div id="login">
-      <h2>Login</h2>
-      <p>Please login or you will lose your data.</p>
-      <div id="firebaseui-auth-container"></div>
-      <div id="loader">Loading...</div>
-    </div> ------>
-    <main id="main">
-      <h1>Library</h1>
-      <div id="library"></div>
-      <div id="buttonandform" style="position: relative">
-        <button id="new">Add new book</button>
+    <header>
+      <h1>Pocket Library</h1>
+    </header>
+    <!------ Add Books Here ------>
+    <button id="new-book">
+      <img src="/icons/book-open-page-variant.svg" alt="" />
+    </button>
+
+    <div class="overlay"></div>
+    <div class="bookshelf"></div>
+
+    <section id="popup">
+      <div id="container">
+        <h2>New Book</h2>
+
+        <button id="close">
+          <img src="/icons/delete.svg" alt="" />
+        </button>
+
+        <!-- <div class="close">
+          <img src="/icons/delete.svg" alt="" />
+        </div> -->
+
+        <form id="form" action="/" method="GET">
+          <label for="title">Title:</label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Title"
+            autocomplete="off"
+            required
+          /><br />
+          <label for="author">Author:</label>
+          <input
+            type="text"
+            id="author"
+            name="author"
+            placeholder="Author"
+            autocomplete="off"
+            required
+          /><br />
+          <label for="pages">Number of pages:</label>
+          <input
+            type="number"
+            id="pages"
+            name="pages"
+            placeholder="Pages"
+            autocomplete="off"
+            required
+          /><br />
+          <label for="read">Read the book?</label><br />
+          <select name="read" id="read">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Eventually">I'll get to it eventually</option>
+          </select>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
       </div>
-    </main>
+    </section>
   </body>
+  <script src="main.js"></script>
 </html>
