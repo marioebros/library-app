@@ -20,7 +20,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][[contributors-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -36,7 +39,7 @@
 <h3 align="center">Pocket Library</h3>
 
   <p align="center">
-    project_description
+    A pocket library app built with CSS, JavaScript, and HMTL. Built in conjunction with the FullStack JavaScript path in "The Odin Project".
     <br />
     <a href="https://github.com/marioebros/library-app"><strong>Explore the docs »</strong></a>
     <br />
@@ -124,7 +127,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/marioebros/library-app.git
    ```
 3. Install NPM packages
    ```sh
@@ -158,7 +161,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/marioebros/library-app/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,7 +199,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/marioebros/library-app](https://github.com/marioebros/library-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
